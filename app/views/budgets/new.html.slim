@@ -1,0 +1,14 @@
+h2 Fazer orçamento
+.row
+	.span4
+		.well
+			= simple_form_for :budget, url: "#" do |f|
+				= f.input :salario_mensal
+				= f.input :tempo_gasto, hint: "em horas"
+				= f.input :margem_de_reserva
+				= f.input :margem_de_lucro
+				= f.input :impostos
+				= f.input :taxa_de_urgencia
+
+	.span4
+		h3.valor -

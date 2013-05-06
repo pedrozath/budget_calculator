@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: budget_calculator
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: budget_calculator_teste
+  host: localhost
